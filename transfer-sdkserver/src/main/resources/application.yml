@@ -1,0 +1,47 @@
+spring:
+  application:
+    name: transfer-sdkserver
+
+server:
+  port: 8883
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8881/eureka/
+feign:
+  client:
+    config:
+      default:
+        connect-timeout: 10000
+        read-timeout: 10000
+tencent:
+  wechat:
+    corpid: "ww989d96aeb58d557f"
+    corpsecret: "BGUzjgjC-2B3dw0ANPSHrbTqWNx4RvXhyh6vIHjY_ns"
+    # Windows
+    libname: "WeWorkFinanceSdk"
+    # Linux
+#    libname: "WeWorkFinanceSdk_Java"
+
+
+#七牛云配置
+qiniuyun:
+#  七牛云账号
+  accesskey: "wQOSQJ7Q5Q611FJ_vMER67M5nMQhUhUORcjEHDM_"
+#  七牛云密码
+  secretkey: "2TmOnDaFQzt1arc_y-ikuEWoc1qEA-aeU_qgnlHX"
+#  七牛云默认存储 Buckket bhchatfiletest
+  bucket: "wechatfilestorage"
+  # 上传每次回调地址
+  callback:
+    url: "https://blwyx.91bihu.com/api/v1/enterprisewechatchatcontentarchive/UploadNotify"
+
+threadpool:
+#  核心线程池数
+  core-pool-size: 8
+#  最大线程
+  max-pool-size: 10
+#  队列容量
+  queue-capacity: 1000
+  keep-alive-seconds: 300

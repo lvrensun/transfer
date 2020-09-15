@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/transfer.iml" filepath="$PROJECT_DIR$/transfer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transfer-consumersdk/transfer-consumersdk.iml" filepath="$PROJECT_DIR$/transfer-consumersdk/transfer-consumersdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transfer-eureka/transfer-eureka.iml" filepath="$PROJECT_DIR$/transfer-eureka/transfer-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/transfer-sdkserver/transfer-sdkserver.iml" filepath="$PROJECT_DIR$/transfer-sdkserver/transfer-sdkserver.iml" />
+    </modules>
+  </component>
+</project>

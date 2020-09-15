@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="transfer-consumersdk:war">
+    <output-path>$PROJECT_DIR$/transfer-consumersdk/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>transfer-consumersdk</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="transfer-consumersdk-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="transfer-consumersdk:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="transfer-sdkserver" />
+        <module name="transfer-consumersdk" />
+        <module name="transfer-eureka" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="transfer" target="1.8" />
+      <module name="transfer-consumersdk" target="1.8" />
+      <module name="transfer-eureka" target="1.8" />
+      <module name="transfer-sdkserver" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="transfer" options="-parameters" />
+      <module name="transfer-consumersdk" options="-parameters" />
+      <module name="transfer-eureka" options="-parameters" />
+      <module name="transfer-sdkserver" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="transfer-sdkserver:war">
+    <output-path>$PROJECT_DIR$/transfer-sdkserver/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>transfer-sdkserver</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="transfer-sdkserver-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="transfer-sdkserver:war exploded" />
+    </root>
+  </artifact>
+</component>
